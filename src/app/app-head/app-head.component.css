@@ -1,3 +1,12 @@
-div {
-  height: 68px;
+.header {
+  height: 70px;
+  margin: 15px;
+}
+
+#input-form {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: auto;
+  position: auto;
 }
