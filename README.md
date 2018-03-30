@@ -9,7 +9,7 @@
 <kbd><img src="" alt="Rebuilt onefootball.com screenshot"></kbd>
 
 ## Description
-### A project rebuilding onefootball.com (http://onefootball.com/en/home English) using angular.
+### A project rebuilding onefootball.com English (http://onefootball.com/en/home) using angular.
 ### Week 1: build functionality, week 2: add a database and deploy online
 
 ## Specifications
