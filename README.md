@@ -12,9 +12,6 @@
 ### A project rebuilding onefootball.com (http://onefootball.com/en/home English) using angular.
 ### Week 1: build functionality, week 2: add a database and deploy online
 
-<kbd><img src="" alt="Original onefootball.com screenshot"></kbd>
-<kbd><img src="" alt="Rebuilt onefootball.com screenshot"></kbd>
-
 ## Specifications
 
 | Spec   | Status   |
