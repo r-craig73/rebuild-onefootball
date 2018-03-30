@@ -1,6 +1,9 @@
 .header {
-  height: 70px;
+  height: 80px;
   margin: 15px;
+  font-size: 20px;
+  font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 #input-form {
