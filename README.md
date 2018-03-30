@@ -1,13 +1,18 @@
 # RebuildOnefootball
 
-### by Ron Craig
+### by Ron Craig (ron.craig@comcast.net)
+#### 03/30/2018-TBD
+
+### GitHub repository: https://github.com/r-craig73/rebuild-onefootball
+
+<kbd><img src="" alt="Original onefootball.com screenshot"></kbd>
+<kbd><img src="" alt="Rebuilt onefootball.com screenshot"></kbd>
 
 ## Description
 ### A project rebuilding onefootball.com (http://onefootball.com/en/home English) using angular.
 ### Week 1: build functionality, week 2: add a database and deploy online
 
 <kbd><img src="" alt="Original onefootball.com screenshot"></kbd>
-
 <kbd><img src="" alt="Rebuilt onefootball.com screenshot"></kbd>
 
 ## Specifications
@@ -22,9 +27,9 @@
 
 ## Technologies Used
 ```
-Application: Angular CLI [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3, JavaScript, jQuery, Bootstrap, HTML
-Testing: Jasmine, Karma
-Environment: npm, webpack, babel, esLint
+Application: Angular CLI [Angular CLI] (https://github.com/angular/angular-cli) version 1.7.3, JavaScript, jQuery, Bootstrap, HTML
+Testing: Angular, Jasmine, Karma
+Environment: ng, npm, webpack, babel, esLint
 ```
 
 ## Angular Installation Setup
