@@ -10,6 +10,16 @@
 
 <kbd><img src="" alt="Rebuilt onefootball.com screenshot"></kbd>
 
+## Specifications
+
+| Spec   | Status   |
+|--------|:-------: |
+| Generate header<app-head></app-head> and footer<app-footer></app-footer> components  | Ongoing |
+| Edit header and footer styling | Ongoing |
+| Generate popular pages, news and trending soccer vides<main></main> components  | Ongoing |
+| Edit news styling | Ongoing |
+
+
 ## Technologies Used
 ```
 Application: Angular CLI [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3, JavaScript, jQuery, Bootstrap, HTML
