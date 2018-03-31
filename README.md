@@ -1,4 +1,4 @@
-# RebuildOnefootball
+# rebuild-onefootball
 
 ### by Ron Craig (ron.craig@comcast.net)
 #### 03/30/2018-TBD
@@ -66,5 +66,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Header: Need to insert a magnifying glass icon within the search window.
 * Footer: Complete setting up table and links.
 
-## Licensed under MIT Licensed
-###
+### Licensed under MIT Licensed
+
+Copyright (c) 2018 **_RC productions_**
