@@ -5,8 +5,14 @@
 
 ### GitHub repository: https://github.com/r-craig73/rebuild-onefootball
 
-<kbd><img src="" alt="Original onefootball.com screenshot"></kbd>
-<kbd><img src="" alt="Rebuilt onefootball.com screenshot"></kbd>
+### Original site
+#### Top main page...
+<kbd><img src="../src/assets/Onefootball-sc01.png" alt="Original onefootball.com  top screenshot"></kbd>
+#### Bottom main page...
+<kbd><img src="../src/assets/Onefootball-sc02.png" alt="Original onefootball.com  bottom screenshot"></kbd>
+
+### Rebuild site (updated: 03/30/2018 evening)
+<kbd><img src="../src/assets/Onefootball-rebuild.png" alt="Rebuild onefootball.com screenshot"></kbd>
 
 ## Description
 ### A project rebuilding onefootball.com English (http://onefootball.com/en/home) using angular.
@@ -56,7 +62,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Known Bugs and Issues
-
+* Header: Issues setting up navigator drop-down languages.
+* Header: Need to insert a magnifying glass icon within the search window.
+* Footer: Complete setting up table and links.
 
 ## Licensed under MIT Licensed
 ###
