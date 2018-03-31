@@ -7,12 +7,12 @@
 
 ### Original site
 #### Top main page...
-<kbd><img src="../src/assets/Onefootball-sc01.png" alt="Original onefootball.com  top screenshot"></kbd>
+<kbd><img src="./src/assets/Onefootball-sc01.png" alt="Original onefootball.com  top screenshot"></kbd>
 #### Bottom main page...
-<kbd><img src="../src/assets/Onefootball-sc02.png" alt="Original onefootball.com  bottom screenshot"></kbd>
+<kbd><img src="./src/assets/Onefootball-sc02.png" alt="Original onefootball.com  bottom screenshot"></kbd>
 
 ### Rebuild site (updated: 03/30/2018 evening)
-<kbd><img src="../src/assets/Onefootball-rebuild.png" alt="Rebuild onefootball.com screenshot"></kbd>
+<kbd><img src="./src/assets/Onefootball-rebuild.png" alt="Rebuild onefootball.com screenshot"></kbd>
 
 ## Description
 ### A project rebuilding onefootball.com English (http://onefootball.com/en/home) using angular.
