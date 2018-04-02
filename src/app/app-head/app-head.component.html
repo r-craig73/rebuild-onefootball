@@ -2,11 +2,42 @@
   <div class="header">
     <div class="row">
       <div class="col-md-7">
-        <a href="http://localhost:4200/"><img src="./assets/Onefootball-green-header.png" alt="Onefootball logo and home page"></a>  English
+        <a href="http://localhost:4200/"><img src="./assets/Onefootball-green-header.png" alt="Onefootball logo and home page"></a>
+        <span class="dropdown">
+         <button onclick="myFunction()" class="dropButton">English</button>
+          <span class="dropdown-content" id="languageDropdown">
+            <a href="#mexico">Mexico</a>
+            <a href="#argentina">Argentina</a>
+            <a href="#france">France</a>
+          </span>
+        </span>
       </div>
       <div id="input-form" class="col-md-5">
         <input id="input-form" type="text" placeholder="  Search for teams and competitions" size="50">
       </div>
     </div>
   </div>
+
+  <script>
+  /* When the user clicks on the button,
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+      document.getElementById('languageDropdown').classList.toggle('show');
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropButton')) {
+
+      let dropdowns = document.getElementsByClassName('dropdown-content');
+      let i;
+      for (i = 0; i < dropdowns.length; i++) {
+        let openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
 </nav>
