@@ -1,7 +1,7 @@
 # rebuild-onefootball
 
 ### by Ron Craig (ron.craig@comcast.net)
-#### 03/30/2018-TBD
+#### 03/30/2018-04/01/2018
 
 ### GitHub repository: https://github.com/r-craig73/rebuild-onefootball
 
@@ -63,8 +63,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Known Bugs and Issues
 * Header: Issues setting up navigator drop-down languages.
-* Header: Need to insert a magnifying glass icon within the search window.
-* Footer: Complete setting up table and links.
+* Footer: CSS div grid system works for Chrome desktop width greater than 1200 pixels.
 
 ### Licensed under MIT Licensed
 
