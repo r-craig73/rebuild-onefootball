@@ -1,6 +1,5 @@
 footer {
   background-color: #f0f2f5;
-  height: auto;
   font-size: 18px;
   font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -16,7 +15,7 @@ footer {
 
 .col-md-5 {
   max-width: 500px;
-  max-height: 20px;
+  max-height: 15px;
 }
 
 .col-md-12 {
