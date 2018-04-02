@@ -11,7 +11,7 @@
 #### Bottom main page...
 <kbd><img src="./src/assets/Onefootball-sc02.png" alt="Original onefootball.com  bottom screenshot"></kbd>
 
-### Rebuild site (updated: 03/30/2018 evening)
+### Rebuild site (updated: 04/01/2018 evening)
 <kbd><img src="./src/assets/Onefootball-rebuild.png" alt="Rebuild onefootball.com screenshot"></kbd>
 
 ## Description
@@ -22,10 +22,11 @@
 
 | Spec   | Status   |
 |--------|:-------: |
-| Generate header<app-head></app-head> and footer<app-footer></app-footer> components  | Ongoing |
-| Edit header and footer styling | Ongoing |
-| Generate popular pages, news and trending soccer vides<main></main> components  | Ongoing |
-| Edit news styling | Ongoing |
+| Generate functioning header <app-app-head></app-app-head> components. | Ongoing |
+| Generate functioning news <app-news></app-news> components. | Ongoing |
+| Generate functional footer <app-footer></app-footer> components. | Completed |
+| Match Onefootball text and background styling. | Ongoing |
+| Generate functional popular pages, news and trending soccer videos links and/or API calls. | Ongoing |
 
 
 ## Technologies Used
@@ -63,7 +64,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Known Bugs and Issues
 * Header: Issues setting up navigator drop-down languages.
-* Footer: CSS div grid system works for Chrome desktop width greater than 1200 pixels.
+* Footer: CSS div grid system works for Chrome desktop width greater than 1200 pixels at 100% viewing.
+* News and videos: Need to link soccer articles.
 
 ### Licensed under MIT Licensed
 
