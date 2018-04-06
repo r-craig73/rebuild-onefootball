@@ -40,10 +40,10 @@
   <br>
   <br>
 
-  <h4>Sample article search</h4>
+  <h3>Sample article search</h3>
   <div class="card-title" *ngFor="let article of articles">
     <h4>{{article.title}}</h4>
-    <p><a href="{{article.imagePath}}">{{article.imagePath}}</a></p>
+    <img src="{{article.imagePath}}" alt="loop of articles" width="300">
   </div>
   <br>
 
