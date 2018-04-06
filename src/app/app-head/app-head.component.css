@@ -1,55 +1,13 @@
-.header {
-  background-color: #ffffff;
-  height: 80px;
-  margin: 20px;
-  font-size: 18px;
+.row {
+  padding-left: 25px;
+  padding-right: 40px;
 }
 
-.col-md-5 {
-  width: 80%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: auto;
-  position: auto;
+
+.col-md-4 {
+  padding-top: 17px;
 }
 
-.dropButton {
-    color: black;
-    padding: 5px;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-  display:block;
+.col-md-6 {
+  padding-top: 17px;
 }
