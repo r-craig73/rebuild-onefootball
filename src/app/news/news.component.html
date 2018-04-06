@@ -40,6 +40,14 @@
   <br>
   <br>
 
+  <h4>Sample article search</h4>
+  <div class="card-title" *ngFor="let article of articles">
+    <h4>{{article.title}}</h4>
+    <p><a href="{{article.imagePath}}">{{article.imagePath}}</a></p>
+  </div>
+  <br>
+
+
   <div class="top-news">
     <div class="row">
       <div class="col-md-12">
@@ -156,6 +164,5 @@
   </div>
   <br>
   <br>
-
 
 </div>
