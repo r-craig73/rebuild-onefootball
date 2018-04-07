@@ -11,8 +11,12 @@
 #### Bottom main page...
 <kbd><img src="./src/assets/Onefootball-sc02.png" alt="Original onefootball.com  bottom screenshot"></kbd>
 
-### Rebuild site (updated: 04/01/2018 evening)
-<kbd><img src="./src/assets/Onefootball-rebuild.png" alt="Rebuild onefootball.com screenshot"></kbd>
+### Rebuild site (updated: 04/07/2018 afternoon)
+#### Top main page...
+<kbd><img src="./src/assets/Onefootball-rebuild-sc01.png" alt="Rebuild onefootball.com screenshot"></kbd>
+
+#### Bottom main page...
+<kbd><img src="./src/assets/Onefootball-rebuild-sc02.png" alt="Rebuild onefootball.com screenshot"></kbd>
 
 ## Description
 ### A project rebuilding onefootball.com English (http://onefootball.com/en/home) using angular.
@@ -25,13 +29,14 @@
 | Generate functioning header <app-app-head></app-app-head> components. | Ongoing |
 | Generate functioning news <app-news></app-news> components. | Ongoing |
 | Generate functional footer <app-footer></app-footer> components. | Completed |
-| Match Onefootball text and background styling. | Ongoing |
+| Match Onefootball background styling. | Completed |
 | Generate functional popular pages, news and trending soccer videos links and/or API calls. | Ongoing |
 
 ## Tasks to Complete
 [ ] Use bootstrap Card to edit news blocks.
 [ ] Use either bootstrap Input group or unique button type to replicate a magnifying glass icon.
-[x] Use bootstrap 4 to dropdown languages.
+[ ] Copy Onefootball text styling.
+[x] Use bootstrap 4 to dropdown languages, but not functional.
 
 
 ## Technologies Used
