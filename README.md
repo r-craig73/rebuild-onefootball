@@ -5,6 +5,10 @@
 
 ### GitHub repository: https://github.com/r-craig73/rebuild-onefootball
 
+## Description
+### A project rebuilding onefootball.com English (http://onefootball.com/en/home) using angular.
+### Week 1: build functionality, week 2: add a database and deploy online
+
 ### Original site
 #### Top main page...
 <kbd><img src="./src/assets/Onefootball-sc01.png" alt="Original onefootball.com  top screenshot"></kbd>
@@ -17,10 +21,6 @@
 
 #### Bottom main page...
 <kbd><img src="./src/assets/Onefootball-rebuild-sc02.png" alt="Rebuild onefootball.com screenshot"></kbd>
-
-## Description
-### A project rebuilding onefootball.com English (http://onefootball.com/en/home) using angular.
-### Week 1: build functionality, week 2: add a database and deploy online
 
 ## Specifications
 
