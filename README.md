@@ -28,6 +28,11 @@
 | Match Onefootball text and background styling. | Ongoing |
 | Generate functional popular pages, news and trending soccer videos links and/or API calls. | Ongoing |
 
+## Tasks to Complete
+[ ] Use bootstrap Card to edit news blocks.
+[ ] Use either bootstrap Input group or unique button type to replicate a magnifying glass icon.
+[x] Use bootstrap 4 to dropdown languages.
+
 
 ## Technologies Used
 ```
@@ -63,10 +68,28 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Known Bugs and Issues
-* Header: Issues setting up navigator drop-down languages.
-* Footer: CSS div grid system works for Chrome desktop width greater than 1200 pixels at 100% viewing.
-* News and videos: Need to link soccer articles.
+* Header: Use search for news and/or video API calls.
+* News and videos: Link to soccer articles and/or videos.
 
-### Licensed under MIT Licensed
+MIT License
+-----------
 
 Copyright (c) 2018 **_RC productions_**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
