@@ -40,13 +40,6 @@
   <br>
   <br>
 
-  <h3>Sample article search</h3>
-  <div *ngFor="let article of articles">
-    <h4>{{article.title}}</h4>
-    <img src="{{article.imagePath}}" alt="loop of articles" width="300">
-  </div>
-  <br>
-
 
 <div class="top-news">
   <div class="row">
@@ -59,54 +52,53 @@
       <div class="col-md-7">
         <div class="card">
           <div class="card-body">
-            <img class="card-img-left" src="{{articles[0].imagePath}}" height="auto" width="700">
+            <img class="card-img-left" src="{{articles[0].imagePath}}" height="325" width="670">
           </div>
         </div>
       </div>
       <div class="col-md-5">
-        <div class="card">
+        <div class="card text-white bg-dark">
           <div class="card-body">
-              <h5 class="card-title">{{articles[0].title}}</h5>
-              <p class="card-text">More soccer news.</p>
-              <p class="card-text"><small class="text-muted">{{articles[0].source}}</small></p>
+              <h3 class="card-title">{{articles[0].title}}</h3>
+                <p class="card-text"><small class="text-muted">{{articles[0].source}}</small></p>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-3">
-        <div class="card">
+        <div class="card text-white bg-dark">
+          <img class="card-img-top" src="{{articles[1].imagePath}}" alt="card image cap">
           <div class="card-body">
-              <h5 class="card-title">Top News #2</h5>
-              <p class="card-text">More soccer news.</p>
-              <p class="card-text"><small class="text-muted">News source</small></p>
+              <h4 class="card-title">{{articles[1].title}}</h4>
+              <p class="card-text"><small class="text-muted">{{articles[1].source}}</small></p>
           </div>
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card">
+        <div class="card text-white bg-dark">
+            <img class="card-img-top" src="{{articles[2].imagePath}}" alt="card image cap">
+            <div class="card-body">
+                <h4 class="card-title">{{articles[2].title}}</h4>
+                <p class="card-text"><small class="text-muted">{{articles[2].source}}</small></p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-white bg-dark">
+          <img class="card-img-top" src="{{articles[3].imagePath}}" alt="card image cap">
           <div class="card-body">
-              <h5 class="card-title">Top News #3</h5>
-              <p class="card-text">More soccer news.</p>
-              <p class="card-text"><small class="text-muted">News source</small></p>
+              <h4 class="card-title">{{articles[3].title}}</h4>
+              <p class="card-text"><small class="text-muted">{{articles[3].source}}</small></p>
           </div>
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card">
+        <div class="card text-white bg-dark">
+          <img class="card-img-top" src="{{articles[4].imagePath}}" alt="card image cap">
           <div class="card-body">
-              <h5 class="card-title">Top News #4</h5>
-              <p class="card-text">More soccer news.</p>
-              <p class="card-text"><small class="text-muted">News source</small></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-body">
-              <h5 class="card-title">Top News #5</h5>
-              <p class="card-text">More soccer news.</p>
-              <p class="card-text"><small class="text-muted">News source</small></p>
+              <h4 class="card-title">{{articles[4].title}}</h4>
+              <p class="card-text"><small class="text-muted">{{articles[4].source}}</small></p>
           </div>
         </div>
       </div>
