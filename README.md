@@ -33,7 +33,8 @@
 | Generate functional popular pages, news and trending soccer videos links and/or API calls. | Ongoing |
 
 ## Tasks to Complete
-[ ] Use bootstrap Card to edit news blocks.
+[x] Use bootstrap Card to edit news and video sections.
+[ ] Setup bootstrap.
 [ ] Use either bootstrap Input group or unique button type to replicate a magnifying glass icon.
 [ ] Copy Onefootball text styling.
 [x] Use bootstrap 4 to dropdown languages, but not functional.
@@ -71,6 +72,27 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ### Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Firebase Installation Setup
+### In order to run the database, please follow the instructions below...
+* In the top directory, install AngularFire and Firebase npm packages using the terminal command below:
+`$ npm install angularfire2@4.0.0-rc.0 firebase@^3.6.6 --save`
+* Signup and Log into Firebase (https://console.firebase.google.com/).
+* Create a new project by providing a name for your project and selecting your Contry/region.
+* In the "Overview" section, select 'Add Firebase to your web app'.
+* Copy the initializing settings into a clipboard.
+* Within the Firebase dashboard, select 'Realtime Database'.  Then select start in Test Mode.
+* For Firebase credentials, create a new file called 'api-keys.ts' in the 'src/app/'' directory.
+* Place your Firebase credentials and other information as shown below:
+````
+export let masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };
+````
 
 ## Known Bugs and Issues
 * Header: Use search for news and/or video API calls.
