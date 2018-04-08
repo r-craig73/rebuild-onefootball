@@ -18,12 +18,8 @@ addArticle(newArticle: Article) {
   this.articles.push(newArticle);
 }
 
-getArticlesById(id: string){
-    // for (var i = 0; i <= ALBUMS.length - 1; i++) {
-    //   if (ALBUMS[i].id === albumId) {
-    //     return ALBUMS[i];
-    //   }
-    // }
+getArticleById(articleId: string) {
+    return this.database.object(articleId);
   }
 
 }
