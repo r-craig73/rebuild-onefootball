@@ -36,13 +36,19 @@
 | Search API calls and save soccer videos information in a new Firebase database. | Ongoing |
 
 ## Tasks to Complete
-- [ ] Add edit and delete article features in the Admin section.
+- [ ] Deploy application to Firebase.
+- [ ] In the Admin section, add article features in the articles database.
+- [ ] In the Admin section, edit and delete articles in the articles database.
 - [ ] Use search box and "Popular Pages" links to start a YouTube API call.
-- [ ] Use either bootstrap Input group or unique button type to replicate a magnifying glass icon.
+- [ ] Add an angular pipe to the application.
 - [ ] Copy Onefootball text styling.
-- [x] Use bootstrap 4 to dropdown languages, but not functional.
+- [x] Add a database.
+- [x] Use bootstrap 4 to dropdown features.
 - [x] Use bootstrap Card to edit news and video sections.
 
+## Known Bugs and Issues
+* Header: Search for soccer videos using YouTube API call is not functional.
+* News and videos: Retrieving data from Firebase is not possible.
 
 ## Technologies Used
 ```
@@ -97,10 +103,6 @@ export let masterFirebaseConfig = {
     messagingSenderId: "xxxx"
   };
 ```
-
-## Known Bugs and Issues
-* Header: Use search for YouTube API call is not functional.
-* News and videos: Link to soccer articles and/or videos is not functional.
 
 MIT License
 -----------
