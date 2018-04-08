@@ -15,28 +15,33 @@
 #### Bottom main page...
 <kbd><img src="./src/assets/Onefootball-sc02.png" alt="Original onefootball.com  bottom screenshot"></kbd>
 
-### Rebuild site (updated: 04/07/2018 afternoon)
+### Rebuild site (updated: 04/07/2018 evening)
+#### Welcome page...
+<kbd><img src="./src/assets/Onefootball-rebuild-welcome.png" alt="Rebuild onefootball.com welcome screenshot"></kbd>
+
 #### Top main page...
-<kbd><img src="./src/assets/Onefootball-rebuild-sc01.png" alt="Rebuild onefootball.com screenshot"></kbd>
+<kbd><img src="./src/assets/Onefootball-rebuild-sc01.png" alt="Rebuild onefootball.com screenshot, part 1"></kbd>
 
 #### Bottom main page...
-<kbd><img src="./src/assets/Onefootball-rebuild-sc02.png" alt="Rebuild onefootball.com screenshot"></kbd>
+<kbd><img src="./src/assets/Onefootball-rebuild-sc02.png" alt="Rebuild onefootball.com screenshot, part 2"></kbd>
 
 ## Specifications
 
 | Spec   | Status   |
 |--------|:-------: |
-| Generate functioning header <app-app-head></app-app-head> components. | Ongoing |
-| Generate functioning news <app-news></app-news> components. | Ongoing |
+| Generate functioning header <app-app-head></app-app-head> components. | Completed |
 | Generate functional footer <app-footer></app-footer> components. | Completed |
 | Match Onefootball background styling. | Completed |
-| Generate functional popular pages, news and trending soccer videos links and/or API calls. | Ongoing |
+| Generate functioning news <app-news></app-news> components. | Ongoing |
+| Search API calls and save soccer videos information in a new Firebase database. | Ongoing |
 
 ## Tasks to Complete
-- [x] Use bootstrap Card to edit news and video sections.
+- [ ] Add edit and delete article features in the Admin section.
+- [ ] Use search box and "Popular Pages" links to start a YouTube API call.
 - [ ] Use either bootstrap Input group or unique button type to replicate a magnifying glass icon.
 - [ ] Copy Onefootball text styling.
 - [x] Use bootstrap 4 to dropdown languages, but not functional.
+- [x] Use bootstrap Card to edit news and video sections.
 
 
 ## Technologies Used
