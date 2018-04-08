@@ -49,6 +49,7 @@
 ## Known Bugs and Issues
 * Header: Search for soccer videos using YouTube API call is not functional.
 * News and videos: Retrieving data from Firebase is not possible.
+* Admin section: Opening Admin results in a Chrome console error: 'ERROR TypeError: Cannot read property 'set' of undefined'.
 
 ## Technologies Used
 ```
