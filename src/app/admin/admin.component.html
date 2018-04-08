@@ -1,3 +1,42 @@
-<p>
-  admin works!
-</p>
+
+<div class="card wholecard">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-10">
+        <div>
+          <h3>Add New Article</h3>
+        </div>
+        <div class="card-body">
+          <label>Title:</label>
+          <br>
+          <input #newTitle>
+          <br>
+
+          <label>Description:</label>
+          <br>
+          <textarea #newDescription></textarea>
+          <br>
+          <label>Source:</label>
+          <br>
+          <input #newSource>
+          <br>
+          <label>Published Time:</label>
+          <br>
+          <input #newPublished>
+          <br>
+          <label>Image Path:</label>
+          <br>
+          <input #newImagePath>
+          <br>
+          <label>Id string:</label>
+          <br>
+          <input #newId>
+        </div>
+
+        <br>
+          <button (click)="submitForm(newTitle.value, newDescription.value, newSource.value, newPublished.value, newImagePath.value, newId.value); newTitle.value=''; newDescription.value=''; newSource.value=''; newPublished.value=''; newImagePath.value=''; newId.value=''" class="btn btn-primary">Add</button>
+          <br>
+      </div>
+    </div>
+  </div>
+</div>
