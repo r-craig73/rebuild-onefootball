@@ -33,11 +33,10 @@
 | Generate functional popular pages, news and trending soccer videos links and/or API calls. | Ongoing |
 
 ## Tasks to Complete
-[x] Use bootstrap Card to edit news and video sections.
-[ ] Setup bootstrap.
-[ ] Use either bootstrap Input group or unique button type to replicate a magnifying glass icon.
-[ ] Copy Onefootball text styling.
-[x] Use bootstrap 4 to dropdown languages, but not functional.
+- [x] Use bootstrap Card to edit news and video sections.
+- [ ] Use either bootstrap Input group or unique button type to replicate a magnifying glass icon.
+- [ ] Copy Onefootball text styling.
+- [x] Use bootstrap 4 to dropdown languages, but not functional.
 
 
 ## Technologies Used
@@ -84,7 +83,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Within the Firebase dashboard, select 'Realtime Database'.  Then select start in Test Mode.
 * For Firebase credentials, create a new file called 'api-keys.ts' in the 'src/app/'' directory.
 * Place your Firebase credentials and other information as shown below:
-````
+```
 export let masterFirebaseConfig = {
     apiKey: "xxxx",
     authDomain: "xxxx.firebaseapp.com",
@@ -92,11 +91,11 @@ export let masterFirebaseConfig = {
     storageBucket: "xxxx.appspot.com",
     messagingSenderId: "xxxx"
   };
-````
+```
 
 ## Known Bugs and Issues
-* Header: Use search for news and/or video API calls.
-* News and videos: Link to soccer articles and/or videos.
+* Header: Use search for YouTube API call is not functional.
+* News and videos: Link to soccer articles and/or videos is not functional.
 
 MIT License
 -----------
