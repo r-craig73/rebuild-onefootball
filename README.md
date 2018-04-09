@@ -21,10 +21,10 @@
 #### Welcome page...
 <kbd><img src="./src/assets/Onefootball-rebuild-welcome.png" alt="Rebuild onefootball.com welcome screenshot"></kbd>
 
-#### Top main page...
+#### Top news page...
 <kbd><img src="./src/assets/Onefootball-rebuild-sc01.png" alt="Rebuild onefootball.com screenshot, part 1"></kbd>
 
-#### Bottom main page...
+#### Bottom news page...
 <kbd><img src="./src/assets/Onefootball-rebuild-sc02.png" alt="Rebuild onefootball.com screenshot, part 2"></kbd>
 
 ## Specifications
@@ -107,11 +107,10 @@ export let masterFirebaseConfig = {
     messagingSenderId: "xxxx"
   };
 ```
+Copyright (c) 2018 **_RC productions_**
 
 MIT License
 -----------
-
-Copyright (c) 2018 **_RC productions_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
