@@ -4,6 +4,8 @@
 #### 03/30/2018-04/08/2018
 
 ### GitHub repository: https://github.com/r-craig73/rebuild-onefootball
+### Project Console: https://console.firebase.google.com/project/articles-d9a66/overview
+### Hosting URL: https://articles-d9a66.firebaseapp.com
 
 ## Description
 ### A project rebuilding onefootball.com English (http://onefootball.com/en/home) using angular.
@@ -36,19 +38,20 @@
 | Search API calls and save soccer videos information in a new Firebase database. | Ongoing |
 
 ## Tasks to Complete
-- [ ] Deploy application to Firebase.
-- [ ] In the Admin section, add article features in the articles database.
-- [ ] In the Admin section, edit and delete articles in the articles database.
-- [ ] Use search box and "Popular Pages" links to start a YouTube API call.
+- [ ] News section: Include a path for one of the top five articles to include an article's detail (cRud).
+- [ ] Admin section: Edit and delete articles in the articles database (crUD).
+- [ ] Header section: Use search box and "Popular Pages" links in News to start a YouTube API call.
 - [ ] Add an angular pipe to the application.
-- [ ] Copy Onefootball text styling.
-- [x] Add a database.
+- [ ] Copy Onefootball text styling (Google fonts?).
+- [x] Add articles database.
 - [x] Use bootstrap 4 to dropdown features.
 - [x] Use bootstrap Card to edit news and video sections.
+- [x] In the Admin section, add article features in the articles database (Crud).
+- [x] Deploy application to Firebase.
 
 ## Known Bugs and Issues
 * Header: Search for soccer videos using YouTube API call is not functional.
-* News and videos: Retrieving data from Firebase is not possible.
+* News and videos: Retrieving data from Firebase is not possible (no cRUD).
 * Admin section: Opening Admin results in a Chrome console error: 'ERROR TypeError: Cannot read property 'set' of undefined'.
 
 ## Technologies Used
