@@ -92,11 +92,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * In the top directory, install AngularFire and Firebase npm packages using the terminal command below:
 `$ npm install angularfire2@4.0.0-rc.0 firebase@^3.6.6 --save`
 * Signup and Log into Firebase (https://console.firebase.google.com/).
-* Create a new project by providing a name for your project and selecting your Contry/region.
+* Create a new project by providing a name for your project and selecting your Country/region.
 * In the "Overview" section, select 'Add Firebase to your web app'.
 * Copy the initializing settings into a clipboard.
 * Within the Firebase dashboard, select 'Realtime Database'.  Then select start in Test Mode.
-* For Firebase credentials, create a new file called 'api-keys.ts' in the 'src/app/'' directory.
+* For Firebase credentials, create a new file called `api-keys.ts` in the `src/app/` directory.
 * Place your Firebase credentials and other information as shown below:
 ```
 export let masterFirebaseConfig = {
@@ -118,5 +118,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
